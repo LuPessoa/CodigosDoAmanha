@@ -1,0 +1,5 @@
+nome = input("Digite o nome do produto: ")
+preco = float(input("Digite o preço do produto: "))
+print(f"Quantidade de letras do nome: {len(nome)}")
+print(f"Tipo de dados: {type(preco)}")
+print(f"Preço arredondado: {round(preco, 2)}")
